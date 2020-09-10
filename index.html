@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <div class="container-fluid navalert-container">
+    <nav class="navbar navbar-dark navbar-expand-sm">
         <a href="/" class="navbar-brand">BS Marine</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
             <ul class="navbar-nav mr-auto" <li=""><a class="nav-link" href="/">Home</a>
-                <li class="active nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item dropdown mr-2">
                     <a class="nav-link dropdown-toggle" href="/services" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -38,16 +39,18 @@
         
         </div>
     </nav>
+    </div>
 
     <!--Home-->
     <div class="container-fluid home-container">
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
+         <div class="opaque-overlay">&nbsp;</div>
+         <div class="row">
             <div class="col-12 my-5">
                 <section class="container-fluid jumbotron text-center">
                     <h1 class="jumbotron-header">BS Marine</h1>
-                    <h2>Shipping Inspections and Consultancy</h2>
-                    <p>Scurt paragraf despre ce face <strong>BS Marine</strong> si ce servicii ofera</p>
+                        <hr class="block-divider">
+                    <h2 class="lead"><strong>Inspections and Consultancy</strong></h2>
+                    <p class="sublead"><strong><em>Scurt paragraf despre ce face BS Marine si ce servicii ofera</em></strong></p>
                 </section>
             </div>
         </div>
@@ -55,12 +58,16 @@
         <!--Home end-->
             
         <!--About-->
-        
-        <div class="container-fluid about-container">
+    <div class="container-wrapper">
+        <section class="about">
+        <div class="container about-container content-container">
+            <h2 class="text-uppercase text-center">About:</h2>
+            <hr class="block-divider block-divider--short">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 page-header">
+                    
                     <div class="about">
-                        <h5 class="text-uppercase"><i class="fas fa-dharmachakra d-none d-sm-inline"></i> Scurt istoric BS Marine</h5>
+                        <h5 class="text-uppercase"><i class="fas fa-dharmachakra d-none d-sm-block"></i> Scurt istoric BS Marine</h5>
                         <p> Cum a aparut, cand si in ce conditii bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -70,9 +77,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 page-header">
                     <div class="about">
-                        <h5 class="text-uppercase"><i class="fas fa-anchor d-none d-sm-inline"></i> Scurt istoric Bogdan Sandrea</h5>
+                        <h5 class="text-uppercase"><i class="fas fa-anchor d-none d-sm-block"></i> Scurt istoric Bogdan Sandrea</h5>
                         <p> Paragraf despre educatie, cum a ajuns sa lucreze ca insector, 
                             pe unde a lucrat, blabla bla etc.
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -85,21 +92,24 @@
                 </div>
             </div>
         </div>
-            
+        </section>
+    </div>    
         <!--About end-->
-            <hr>
+         
         <!--Services-->
-        <div class="container-fluid services-container">
+    <div class="container-wrapper--blue">
+        <div class="container-fluid services-container content-container">
             <div class="row">
-                <div class="col-12 my-5">
-                    <h2>Services</h2>
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Services:</h2>
+                    <hr class="block-divider block-divider--short">
                 </div>
             </div>
                 
             <div class="row">
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> SIRE INSPECTIONS</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> SIRE INSPECTIONS</h5>
                         <p> Paragraf despre inspectii sire bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -111,9 +121,9 @@
                     </div>
                 </div>
                    
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> PRE-PURCHASE</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> PRE-PURCHASE</h5>
                         <p> Paragraf despre PRE-PURCHASE bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -125,9 +135,9 @@
                     </div>
                 </div>
             
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> CONDITION</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> CONDITION</h5>
                         <p> Paragraf despre CONDITION bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -139,9 +149,9 @@
                     </div>
                 </div>
            
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> FLAG STATE AND AUDITS</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> FLAG STATE AND AUDITS</h5>
                         <p> Paragraf despre FLAG STATE AND AUDITS bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -153,9 +163,9 @@
                     </div>
                 </div>
             
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> TMSA AND PRE-TMSA</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> TMSA AND PRE-TMSA</h5>
                         <p> Paragraf despre TMSA AND PRE-TMSA bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -167,9 +177,9 @@
                     </div>
                 </div>
             
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> TERMINAL COMPLIANCE</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> TERMINAL COMPLIANCE</h5>
                         <p> Paragraf despre TERMINAL COMPLIANCE bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -181,9 +191,9 @@
                     </div>
                 </div>
            
-                <div class="col-12">
-                    <div class="service">
-                        <h5><i class="fas fa-clipboard d-none d-sm-inline"></i> STS PRE-ASSESSMENTS</h5>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services">
+                        <h5><i class="fas fa-clipboard d-none d-sm-block"></i> STS PRE-ASSESSMENTS</h5>
                         <p> Paragraf despre STS PRE-ASSESSMENTS bla bla bla
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -196,14 +206,18 @@
                 </div>
             </div>
         </div>
+    </div>
         <!--Services end-->
-        <hr>
+      
         <!--Contact-->
-        <div class="container-fluid contact-container">
-            <div class="row bg-color-contact">
+        <div class="container-fluid contact-container content-container">
+            <h2 class="text-uppercase text-center">Contact:</h2>
+            <hr class="block-divider block-divider--short">
+            <div class="row bg-color-contact page-header">
+            
                 <div class="col">
                     <div class="center-form">
-                        <h5 class="uppercase text-left">Contact Us!</h5>
+                        <h5 class="uppercase text-center">Contact Us!</h5>
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
                             <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
@@ -220,7 +234,7 @@
         <hr>
         <!--footer-->
 
-         <footer class="container-fluid footer-container">
+         <footer class="container-fluid footer-container content-container">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
