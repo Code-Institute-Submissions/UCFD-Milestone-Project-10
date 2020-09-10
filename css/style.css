@@ -1,0 +1,43 @@
+body {
+font-family: font-family: 'Exo', sans-serif;
+}
+
+.home-container {
+    height: vh;
+
+    background: url("../images/dolphin.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-container {
+
+}
+
+.services-container {
+
+}
+
+.contact-container {
+
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #c7d0d8;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
