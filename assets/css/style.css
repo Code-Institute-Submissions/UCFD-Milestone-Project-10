@@ -16,7 +16,9 @@ background-color: #395c82;
 .home-container {
     height: vh;
 
-    background: url("../images/dolphin.jpg") no-repeat center center fixed;
+    background: 
+    url("../images/dolphin.jpg") no-repeat center center fixed;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -255,6 +257,7 @@ button[type="submit"] {
     border: #3587e0;
 }
 
+
 /*Media Queries*/
 
 @media(min-width: 992px) {
@@ -276,3 +279,6 @@ button[type="submit"] {
     color: black;
     font-family: "Exo",sans-serif
 }
+
+/*images*/
+
