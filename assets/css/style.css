@@ -12,6 +12,7 @@ background-color: #395c82;
     color: whitesmoke;
 }
 
+
 .home-container {
     height: vh;
 
@@ -70,6 +71,15 @@ background-color: #395c82;
     line-height: 45px;
 }
 
+/*drop down*/
+
+.dropdown-menu {
+    background: transparent;
+}
+
+.dropdown-item {
+    color: #c7d0d8;
+}
 /*Page headers*/
 
 .page-header {
@@ -136,11 +146,11 @@ background-color: #395c82;
 }
 
 .jumbotron .lead {
-    color: #c3e0fd;
+    color: #c7d0d8;
 }
 
 .jumbotron .sublead {
-    color: #c3e0fd;
+    color: #c7d0d8;
 }
 
 .jumbotron-header {
@@ -215,4 +225,54 @@ background-color: #395c82;
     display: inline-block;
     color: #fafafa;
     text-align: center;
+}
+
+/*Contact form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    scroll-margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.text-uppercase {
+    color: whitesmoke;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #3587e0;
+    border: #3587e0;
+}
+
+/*Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+}
+/*Callout container*/
+
+.callout-container {
+    background: #fafafa;
+}
+
+.callout-container h2 {
+    color: black;
+    font-family: "Exo",sans-serif
 }
