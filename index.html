@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <style> 
-        #val-spart {  
+        #image2 {  
             height: 600px; 
             background:  
         url("assets/images/val-spart.jpg")
@@ -18,7 +18,7 @@
         } 
     </style> 
     <style> 
-        #spuma-marii {  
+        #image3 {  
             height: 600px; 
             background:  
         url("assets/images/spuma-marii.jpg")
@@ -26,7 +26,7 @@
         } 
     </style> 
     <style> 
-        #poza {  
+        #image4 {  
             height: 600px; 
             background:  
         url("assets/images/poza.jpg")
@@ -34,7 +34,7 @@
         } 
     </style> 
 </head>
-<body id="home">
+<body>
     <div class="container-fluid navalert-container">
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <a href="/" class="navbar-brand">BS Marine</a>
@@ -44,7 +44,8 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-            <ul class="navbar-nav mr-auto"><a class="nav-link" href="#home">Home</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item dropdown mr-2">
                     <a class="nav-link dropdown-toggle" href="/home" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -78,7 +79,7 @@
                     </section>
                 </div>
             </div>
-        </div>
+        
     </div>
 </section>
         <!--Home end-->
@@ -102,7 +103,7 @@
 
          <!--Callout end-->   
            
-        <div id = "val-spart" class="container-fluid"></div> 
+        <div id="image2" class="container-fluid"></div> 
 
         <!--About-->
 <section id="about">
@@ -143,9 +144,10 @@
 </section>
         <!--About end-->
          
-<div id = "spuma-marii"></div>
+<div id="image3"></div>
 
         <!--Services-->
+
 <section id="services">
     <div class="container-wrapper--blue">
         <div class="container-fluid content-container">
@@ -259,16 +261,20 @@
     </div>
 </section>
         <!--Services end-->
-      <div id = "poza"></div>
+
+    <div id="image4"></div>
+
         <!--Contact-->
+
 <section id="contact">
-    <div class="container-fluid content-container">
+    <div class="container-wrapper">
+    <div class="container-fluid content-container contact-container">
         <h2 class="text-uppercase text-center">Contact:</h2>
         <hr class="block-divider block-divider--short">
             <div class="row bg-color-contact page-header">
                 <div class="col">
                     <div class="center-form">
-                        <h5 class="contact-heading uppercase text-center">Contact Us!</h5>
+                        
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
                             <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
@@ -280,6 +286,7 @@
                     </div>
                 </div>
             </div>
+    </div>
     </div>
 </section>
         <!--Contact end-->

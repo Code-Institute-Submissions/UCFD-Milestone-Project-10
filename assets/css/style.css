@@ -1,21 +1,20 @@
 body {
-font-family: font-family: 'Exo', sans-serif;
-background-color: #395c82;
+font-family: 'Exo', sans-serif;
+background-color: #53769c;
 }
 
+
 .container-wrapper {
-    color: white;
+    color: whitesmoke;
+    
 }
 
 .container-wrapper--blue {
-    background-color: #2a496b;
     color: whitesmoke;
 }
 
 
 .home-container {
-    height: vh;
-
     background: 
     url("../images/dolphin.jpg") no-repeat center center fixed;
     
@@ -231,13 +230,7 @@ background-color: #395c82;
 
 /*Contact form*/
 
-.contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    scroll-margin-bottom: 20px;
-    color: whitesmoke;
-}
+
 
 .text-uppercase {
     color: whitesmoke;
@@ -247,6 +240,11 @@ background-color: #395c82;
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    
+}
+
+.container-wrapper {
+    background: transparent;
 }
 
 button[type="submit"] {
@@ -256,6 +254,9 @@ button[type="submit"] {
     background-color: #3587e0;
     border: #3587e0;
 }
+
+
+
 
 
 /*Media Queries*/
@@ -279,6 +280,3 @@ button[type="submit"] {
     color: black;
     font-family: "Exo",sans-serif
 }
-
-/*images*/
-
