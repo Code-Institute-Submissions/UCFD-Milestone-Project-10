@@ -1,39 +1,88 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# BS Marine Website
 
-Welcome mihaelasandrea,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+https://8000-cb1282b8-4487-4a1a-992b-f6adcbc1b74e.ws-eu01.gitpod.io
 
-## Gitpod Reminders
+This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.    
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+### User stories
 
-A blue button should appear to click: *Make Public*,
+    First Time Visitor Goals
+            As a First Time Visitor, I want to easily understand teh main purpose of the site and learn more about the organisation.
+            As a First Time Visitor, I want to be able to easily navigate throughout the site to find content
+            As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-Another blue button should appear to click: *Open Browser*.
+    Returning Visitor Goals
+            As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+            As a Returning Visitor, I want to find community links.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        Frequent User Goals
+            As a Frequent User, I want to check to see if there are any newly added content.
+### Design
 
-A blue button should appear to click: *Make Public*,
+        Colour Scheme
+            The three main colours used are navy blue, black and grey.
 
-Another blue button should appear to click: *Open Browser*.
+        Typography
+            The Exo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+        Imagery
+            I used mostly sea images, which is the main theme of the BS Marine background and activity.
 
-## Updates Since The Instructional Video
+### Wireframes
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+        Home Page Wireframe - View
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+        Mobile Wireframe - View
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        Contact Us Page Wireframe
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Features
 
---------
+        Responsive on all device sizes
 
-Happy coding!
+        Interactive elements
+
+
+## Technologies Used
+
+### Languages Used
+
+            HTML5
+            CSS3
+
+### Frameworks, Libraries & Programs Used
+
+        Bootstrap 4.4.1:
+        Bootstrap was used to assist with the responsiveness and styling of the website.
+        Hover.css:
+        Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+        Google Fonts:
+        Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+        Font Awesome:
+        Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+        jQuery:
+        jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+        Git
+        Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+        GitHub:
+        GitHub is used to store the projects code after being pushed from Git.
+        Figma:
+        Figma was used to create the wireframes during the design process.
+
+### Testing
+    
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+            W3C Markup Validator - Results
+            W3C CSS Validator - Results
+
+## Deployment
+
+
+## Credits
+
+blabla jhk soi s

@@ -1,6 +1,6 @@
 body {
 font-family: 'Exo', sans-serif;
-background-color: #2d5784;
+background-color: #2d5784;;
 }
 
 
@@ -12,6 +12,14 @@ background-color: #2d5784;
     color: whitesmoke;
 }
 
+/*services*/
+.card {
+    color: #6c7177;
+}
+.card-deck {
+justify-content:center;
+}
+/*services*/
 
 .home-container {
     background: 
@@ -74,11 +82,14 @@ background-color: #2d5784;
 /*drop down*/
 
 .dropdown-menu {
-    background: transparent;
+    color: #d8dee4;
+    background-color: rgba(0,0,0,0.5);
 }
 
+
 .dropdown-item {
-    color: #c7d0d8;
+    color: #d8dee4;
+    background-color: rgba(0,0,0,0.25);
 }
 /*Page headers*/
 
@@ -124,7 +135,7 @@ background-color: #2d5784;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25)
+    background-color: rgba(0,0,0,0.25);
 }
 
 .navbar .navbar-toggler {
@@ -186,9 +197,7 @@ background-color: #2d5784;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.terms-and-conditions i:hover {
-    color: #e84610;
-}
+
 
 .social-links {
     padding-bottom: 15px;
@@ -210,8 +219,12 @@ background-color: #2d5784;
     -o-transition: all 0.35s ease-in-out;
 }
 
+.terms-and-conditions i:hover {
+    color: #28a745;
+}
+
 .social-links li a i:hover {
-    background: #e84610;
+    background: #28a745;
 }
 
 #footer-details {
@@ -239,16 +252,13 @@ background-color: #2d5784;
     
 }
 
-.container-wrapper {
-    background: transparent;
-}
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #3587e0;
-    border: #3587e0;
+    background-color: #28a745;
+    border: #28a745;
 }
 
 
