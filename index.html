@@ -11,18 +11,39 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <style> 
         #image2 {  
-            height: 800px;
-            background:  
+            height: 600px;
+            background:
         url("assets/images/image2.jpg")
             no-repeat center center fixed; 
+
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
         } 
     </style> 
     <style> 
         #image3 {  
             height: 800px; 
-            background:  
+          background:
         url("assets/images/image3.jpg")
             no-repeat center center fixed; 
+
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
         } 
     </style> 
 
@@ -32,6 +53,17 @@
             background:  
         url("assets/images/image4.jpg")
             no-repeat center center fixed; 
+
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
         } 
     </style> 
         
@@ -60,7 +92,7 @@
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <a href="/" class="navbar-brand">BS Marine</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"  class="collapsing" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -189,7 +221,7 @@
                     <div id="sire-inspections" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>SIRE INSPECTIONS</strong></h2>
+                                <h3 class="card-title"><strong>SIRE INSPECTIONS</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -210,7 +242,7 @@
                     <div id="pre-purchase" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>PRE PURCHASE</strong></h2>
+                                <h3 class="card-title"><strong>PRE PURCHASE</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -231,7 +263,7 @@
                     <div id="condition" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>CONDITION</strong></h2>
+                                <h3 class="card-title"><strong>CONDITION</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -249,35 +281,14 @@
            
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div id="flag-state-and-audits" class="services">
-                        <div class="card" style="width: 22rem;">
-                            <div class="card-body">
-                                <h2 class="card-title"><strong>FLAG STATE and AUDITS</strong></h2>
-                                <i class="fas fa-clipboard d-none d-sm-block"></i>
-                                <p class="card-text">Paragraf despre inspectii sire bla bla bla
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                    nisi uquat. Duis aute irure dolor in 
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla"
-                                </p>
-                                <a href="#contact" class="btn btn-success">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>             
-            
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
                     <div id="tmsa-and-pre-tmsa" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>TMSA and PRE-TMSA</strong></h2>
+                                <h3 class="card-title"><strong>TMSA and PRE-TMSA</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    sed do eiusmod tempor incididuntUt enim ad minim veniam, quis nostrud exercit
                                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                                     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla"
@@ -288,13 +299,37 @@
                     </div>
                 </div>
             </div>             
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div id="flag-state-and-audits" class="services">
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <h3 class="card-title"><strong>FLAG STATE and AUDITS</strong></h3>
+                                <i class="fas fa-clipboard d-none d-sm-block"></i>
+                                <p class="card-text">Paragraf despre inspectii sire bla bla bla
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    Ut enim ad minim veniam, quis nostrud exercitksdcjbsj  jfh
+                                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                    ncidkh i iuehl ijoif uhukehfkrnk  huihewgugugujdhhuhi ation ullamco laboris 
+                                    nisi uquat. Duis aute irure dolor in 
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla"
+                                </p>
+                                <a href="#contact" class="btn btn-success">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>             
+            
+            
             
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div id="terminal-compliance" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>TERMINAL COMPLIANCE</strong></h2>
+                                <h3 class="card-title"><strong>TERMINAL COMPLIANCE</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -315,7 +350,7 @@
                     <div id="sts-pre-assessments" class="services">
                         <div class="card" style="width: 22rem;">
                             <div class="card-body">
-                                <h2 class="card-title"><strong>STS PRE-ASSESSMENTS</strong></h2>
+                                <h3 class="card-title"><strong>STS PRE-ASSESSMENTS</strong></h3>
                                 <i class="fas fa-clipboard d-none d-sm-block"></i>
                                 <p class="card-text">Paragraf despre inspectii sire bla bla bla
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
