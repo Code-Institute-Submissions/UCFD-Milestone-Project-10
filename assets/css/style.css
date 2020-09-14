@@ -159,7 +159,6 @@ button[type="submit"] {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    z-index: 1;
 }
 
 
@@ -297,7 +296,7 @@ button[type="submit"] {
 .jumbotron h1 {
     color: #c7d0d8;
     font-weight: bold;
-    margin-top: 400px;
+    margin-top: 350px;
 }
 
 
