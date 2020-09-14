@@ -147,6 +147,7 @@ button[type="submit"] {
     background-color: #2d5784;
     min-height: 120px;
     text-align: center;
+    
 }
 
 .terms-and-conditions i {
@@ -158,6 +159,7 @@ button[type="submit"] {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    z-index: 1;
 }
 
 
