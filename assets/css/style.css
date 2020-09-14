@@ -327,13 +327,18 @@ button[type="submit"] {
     position: relative;
 } 
 
+.image-container {
+    height: 500px;
+    background:
+        url("../images/image3.jpg") no-repeat center center fixed; 
 
-        
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-        /* div.transbox {
-            margin: 20px;
-            background-color: rgba(0,0,0,0.5);
-            border: none;
-            opacity: 0.9;                        
-        }*/
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
