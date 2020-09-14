@@ -8,6 +8,7 @@ background-color: #2d5784;
 
 .container-wrapper {
     color: whitesmoke;
+    width: 100%;
 }
 
 .container-wrapper--blue {
@@ -83,19 +84,6 @@ background-color: #2d5784;
 
 
 
-/*drop down*/
-
-.dropdown-menu {
-    color: whitesmoke;
-    background-color: rgba(0,0,0,0.5);
-}
-
-
-.dropdown-item {
-    color: whitesmoke;
-    background-color: rgba(0,0,0,0.5);
-}
-
 
 /*Page headers*/
 
@@ -157,7 +145,23 @@ background-color: #2d5784;
 
 .navbar .navbar-nav a {
     font-weight: bold;
+    color: white;
 }
+
+/*drop down*/
+
+.dropdown-menu {
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.dropdown-item {
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
 
 /*Jumbotron*/
 
@@ -281,18 +285,15 @@ button[type="submit"] {
     color: white;
  }
 
-.transbox {
+/*.transbox {
     width : 90%;
     margin: 0;
     padding: 0;
     position: absolute;
     top: 250px;
     left: 0px;
- }
+ } */
 
-.background {
-    position: center;
-}
 
 /*Media Queries*/
 
@@ -315,4 +316,55 @@ button[type="submit"] {
     color: rgb(97, 97, 100);
     font-family: "Exo",sans-serif;
 }
+<!----------------------------------------------------Images--------------->
+        
+
+    .contact-container {  
+        /*height: 800px;*/
+        background:
+            url("../images/image4.jpg") no-repeat center center fixed; 
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        } 
+
+
+        #image4 {  
+            height: 800px; 
+            background:  
+        url("assets/images/image4.jpg")
+            no-repeat center center fixed; 
+
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+        } 
+        
+
+        div.background {
+            background: url(image4.jpg) no-repeat;
+            border: none;
+            height: 600px;
+        }
+
+        div.transbox {
+            margin: 20px;
+            background-color: rgba(0,0,0,0.5);
+            border: none;
+            opacity: 0.9;                        
+        }
 

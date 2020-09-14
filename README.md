@@ -10,7 +10,7 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
 ### User stories
 
     First Time Visitor Goals
-            As a First Time Visitor, I want to easily understand teh main purpose of the site and learn more about the organisation.
+            As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
             As a First Time Visitor, I want to be able to easily navigate throughout the site to find content
             As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
@@ -18,27 +18,20 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
             As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
             As a Returning Visitor, I want to find community links.
 
-        Frequent User Goals
-            As a Frequent User, I want to check to see if there are any newly added content.
+
 ### Design
+    Color Scheme
+        The main colours are navy blue, grey and electric green for the buttons and the block-dividers.
 
-        Colour Scheme
-            The three main colours used are navy blue, black and grey.
+    Typography
+        The Exo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-        Typography
-            The Exo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
-
-        Imagery
-            I used mostly sea images, which is the main theme of the BS Marine background and activity.
+    Imagery
+        I used mostly sea images, which is the main theme of the BS Marine background and activity.
 
 ### Wireframes
 
-        Home Page Wireframe - View
-
-        Mobile Wireframe - View
-
-        Contact Us Page Wireframe
-
+https://www.figma.com/file/ddLNe3I44VIb8yskcYVo9d/UCFD-Milestone-Project-Wireframe?node-id=5%3A77
 
 ## Features
 
@@ -61,7 +54,7 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
         Hover.css:
         Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
         Google Fonts:
-        Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+        Google fonts were used to import the 'Exo' font into the style.css file which is used on all pages throughout the project.
         Font Awesome:
         Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
         jQuery:
@@ -77,12 +70,15 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
     
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-            W3C Markup Validator - Results
-            W3C CSS Validator - Results
+            W3C CSS Validator - http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
+
+            W3C Markup Validator - https://validator.w3.org/nu/#textarea
 
 ## Deployment
 
 
 ## Credits
 
-blabla jhk soi s
+   
+
+
