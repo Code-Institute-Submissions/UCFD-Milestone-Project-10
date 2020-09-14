@@ -4,7 +4,7 @@ background-color: #2d5784;
 
 }
 
-/*About*/
+/*---------------------------------------------About*/
 
 .container-wrapper {
     color: whitesmoke;
@@ -28,7 +28,7 @@ background-color: #2d5784;
     line-height: 45px;
 }
 
-/*services*/
+/*-----------------------------------------------services*/
 .card {
     color: #6c7177;
 }
@@ -54,7 +54,7 @@ background-color: #2d5784;
     line-height: 45px;
 }
 
-/*home*/
+/*------------------------------------------------------home*/
 
 .home-container {
     background: 
@@ -85,7 +85,7 @@ background-color: #2d5784;
 
 
 
-/*Page headers*/
+/*------------------------------------------------Page headers*/
 
 .page-header {
     margin-bottom: 0;
@@ -99,7 +99,7 @@ background-color: #2d5784;
 }
 
 
-/*block-dividers*/
+/*--------------------------------------------------block-dividers*/
 
 .block-divider {
     width: 75px;
@@ -110,14 +110,14 @@ background-color: #2d5784;
 }
 
 
-/*Content containers*/
+/*------------------------------------------------Content containers*/
 
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-/*Navbar*/
+/*----------------------------------------------------Navbar*/
 
 .navalert-container {
     position: absolute;
@@ -133,7 +133,6 @@ background-color: #2d5784;
     border: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.8);
-    color: whitesmoke;
 }
 
 .navbar .navbar-toggler {
@@ -149,7 +148,7 @@ background-color: #2d5784;
     color: white;
 }
 
-/*drop down*/
+/*-----------------------------------------------------------drop down*/
 
 .dropdown-menu {
     color: whitesmoke;
@@ -164,7 +163,7 @@ background-color: #2d5784;
 
 
 
-/*Jumbotron*/
+/*----------------------------------------------------------Jumbotron*/
 
 .jumbotron {
     background-color: transparent;
@@ -182,7 +181,7 @@ background-color: #2d5784;
     margin-top: 400px;
 }
 
-/*Footer*/
+/*--------------------------------------------------------Footer*/
 
 .uppercase {
     text-transform: uppercase;
@@ -252,7 +251,7 @@ background-color: #2d5784;
     text-align: center;
 }
 
-/*Contact form*/
+/*--------------------------------------------------Contact form*/
 
 
 .text-uppercase {
@@ -279,24 +278,17 @@ button[type="submit"] {
 }
 
 
-.contact {
+.contact-container {
     margin-top: 20px;
     text-align: left;
     font-size: 20px;
     color: white;
+    width: 100%;
  }
 
-/*.transbox {
-    width : 90%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 250px;
-    left: 0px;
- } */
 
 
-/*Media Queries*/
+/*------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
     .center-form {
@@ -307,7 +299,7 @@ button[type="submit"] {
 }
 
 }
-/*Callout container*/
+/*--------------------------------------------------Callout container*/
 
 .callout-container {
     background: #bbc3cc;    
@@ -317,55 +309,31 @@ button[type="submit"] {
     color: rgb(97, 97, 100);
     font-family: "Exo",sans-serif;
 }
-<!----------------------------------------------------Images--------------->
+
+/*-----------------------------------------------------------Images*/
+
+.contact-container {
+    background:
+        url("../images/image4.jpg") no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+
+
         
 
-    .contact-container {  
-        /*height: 800px;*/
-        background:
-            url("../images/image4.jpg") no-repeat center center fixed; 
-
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        } 
-
-
-        #image4 {  
-            height: 800px; 
-            background:  
-        url("assets/images/image4.jpg")
-            no-repeat center center fixed; 
-
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-
-        } 
-        
-
-        div.background {
-            background: url(image4.jpg) no-repeat;
-            border: none;
-            height: 600px;
-        }
-
-        div.transbox {
+        /* div.transbox {
             margin: 20px;
             background-color: rgba(0,0,0,0.5);
             border: none;
             opacity: 0.9;                        
-        }
+        }*/
 
