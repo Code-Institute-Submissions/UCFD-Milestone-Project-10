@@ -130,6 +130,13 @@ button[type="submit"] {
  }
 
 
+.background {
+    background-color: #9f9fa1;
+    opacity: 0.6;
+}
+
+
+
 /*--------------------------------------------------------Footer*/
 
 .uppercase {
