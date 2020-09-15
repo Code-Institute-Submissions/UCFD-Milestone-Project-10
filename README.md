@@ -4,11 +4,11 @@
 Welcome to the BS Marine official website. [View the live project here](https://mihaelasandrea.github.io/UCFD-Milestone-Project). 
 This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.
 
-## USER EXPERIENCE
+## I. USER EXPERIENCE
 
 
 
-### USER STORIES
+### a. USER STORIES
 
 As a visitor I want to easily understand the main purpose of the site and learn more about the organization.
 As a visitor I want to be able to easily navigate throughout the site to find content.
@@ -17,7 +17,7 @@ As a visitor I want to locate teh social links of the organization.
 
 
 
-### DESIGN
+### b. DESIGN
 
 ####  COLOR SCHEME
 
@@ -32,29 +32,29 @@ The main three colours of the site are navy-blue, grey and electric green for th
 The images placed in the website are sea images as for the main theme of the BS Marine activity develops in the maritime field. As  for 
 the shipping inspection company, the main interest is keeping international waters clean by verifying activities and crew on bord the ships.
 
-### WIREFRAME
+### c. WIREFRAME
 
 Home page WIREFRAME [View here](https://www.figma.com/file/ddLNe3I44VIb8yskcYVo9d/UCFD-Milestone-Project-Wireframe?node-id=0%3A1)
 
 
 
-## FEATURES
+## II. FEATURES
 
 Responsive on all device sizes
 Interactive elements
 
 
 
-## TECHNOLOGIES USED:
+## III. TECHNOLOGIES USED:
 
 
-### LANGUAGES
+### a. LANGUAGES
 
 1. [HTML5](https://nl.wikipedia.org/wiki/HTML5)
 2. [CSS3](https://nl.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 
-### FRAMEWORKS, LIBRARIES AND PROGRAMS used
+### b. FRAMEWORKS, LIBRARIES AND PROGRAMS used
 
 1. [BOOTSTRAP 4.5.2](https://getbootstrap.com/):
 
@@ -81,7 +81,7 @@ GitHub is used to store the projects code after being pushed from Git.
 Figma was used to create the [wireframes](https://www.figma.com/file/ddLNe3I44VIb8yskcYVo9d/UCFD-Milestone-Project-Wireframe?node-id=0%3A1) during the design process.
 
 
-## TESTING:
+## IV. TESTING:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -89,12 +89,29 @@ W3C Markup Validator
 W3C CSS Validator 
 
 
-## KNOWN BUGS:
+## V. KNOWN BUGS:
 
 
+## VI. CREDITS:
 
 
+### a. Content:
 
+All content was written by the developer following the instructional videos from the Code Institute Organization in the User Centric Frontend Development course module.
+
+
+### b. Media:
+
+All images used in the website were taken by Captain Konstantinos Mennis, passionate photographer and a skilfull tanker master.
+Exception for the image2 which was downloaded from [here](https://johngaber.wordpress.com/).
+
+### c. Acknowledgements:
+
+My Mentor for continuous helpful feedback.
+
+Tutor support at Code Institute for their support.
+
+Slack Community.
 
 
 
