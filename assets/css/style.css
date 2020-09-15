@@ -157,7 +157,7 @@ button[type="submit"] {
     
 }
 
-.terms-and-conditions i {
+.email-disclaimer i {
     font-size: 18px;
     color: #87a3c1;
     text-align: center;
@@ -190,7 +190,7 @@ button[type="submit"] {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.terms-and-conditions i:hover {
+.email-disclaimer i:hover {
     color: #28a745;
 }
 
