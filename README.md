@@ -97,7 +97,8 @@ W3C CSS Validator
 
 ### a. Content:
 
-All content was written by the developer following the instructional videos from the Code Institute Organization in the User Centric Frontend Development course module.
+The code was written by the developer following the instructional videos from the Code Institute Organization in the User Centric Frontend Development course module.
+The text was mostly written by the developer. Some texts from the services section were taken and adapted from external sources [here](https://www.ocimf-sire.org) and [here](https://www.liscr.com)
 
 
 ### b. Media:
