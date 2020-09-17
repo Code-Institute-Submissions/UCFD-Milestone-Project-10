@@ -157,7 +157,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
     -   My Mentor Medale Oluwafemi for continuous helpful feedback.
 
-    -   Tutor support at Code Institute for their support.
+    -   Tutor support at Code Institute for their support. Special thanks to Roman Grubic and Stephan for helping me out from getting stuck.
+
+    -   Student Care
 
     -   Slack Community.
 
