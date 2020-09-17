@@ -6,7 +6,7 @@
 Welcome to the BS Marine official website. 
 This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.
 
-<h2 align="center"><img src="https://files.slack.com/files-pri/T0L30B202-F01B5M1HUBT/screenshot_2020-09-16_at_13.18.42.png"></h2>
+<h2 align="center"><img src="https://easycaptures.com/fs/uploaded/1461/0212304021.png"></h2>
 
 ## USER EXPERIENCE
 
@@ -83,8 +83,8 @@ the shipping inspection company, the main interest is keeping international wate
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) [Results]()
--   [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/) [Results]()
+-   [W3C Markup Validator](https://validator.w3.org/) Results [here](https://validator.w3.org/nu/#textarea)
+-   [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/) Results [here](https://jigsaw.w3.org/css-validator/validator)
 
 
 ### Testing User Stories from User Experience (UX) Section

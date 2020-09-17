@@ -61,15 +61,7 @@ background-color: #2d5784;
 
 /*----------------------------Services-------------------*/
 
-/* This two classes not needed anymore */
-/* .card-deck{
-    margin: auto;
-} */
-/* .card-deck-row{
-    margin: 0px 20px
-} */
 
-/* I've put this class to put some margin between card so they dont stick together */
 .service-card{
     margin: 20px auto;
     justify-content: center;
@@ -80,7 +72,7 @@ background-color: #2d5784;
     color: grey;
     margin: auto;
 }
-/* I have added this one to center it */
+
 .card-body{
     margin: auto;
 }
@@ -97,7 +89,6 @@ background-color: #2d5784;
     text-align: center;
 }
 
-/* Margin have been setup up to another value. Have to be auto in order to be centered */
 @media (min-width: 576px){
 .card-deck .card {
     -ms-flex: 1 0 0%;
@@ -108,13 +99,6 @@ background-color: #2d5784;
 }
 }
 
-/* This class is not needed */
-/* .card-deck {
-    
-    grid-gap: 5rem;
-    margin-right: -15px;
-    margin-left: -15px;
-} */
 
 
 /*---------------------------------Contact form-----------------*/
@@ -366,12 +350,12 @@ button[type="submit"] {
 .contact-container {
     background:
         url("../images/image4.jpg") no-repeat center center fixed; 
-
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
