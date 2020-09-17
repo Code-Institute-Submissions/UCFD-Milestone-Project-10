@@ -1,7 +1,6 @@
 body {
 font-family: 'Exo', sans-serif;
 background-color: #2d5784;
-
 }
 
 /*------------------------------------------------------home*/
@@ -63,8 +62,8 @@ background-color: #2d5784;
 /*-----------------------------------------------services*/
 
 .card {
-    width: 18rem;
-    height:800px;
+    width: 350px;
+    height:500px;
     color: grey;
 }
 
@@ -75,13 +74,26 @@ background-color: #2d5784;
     text-align: center;
 }
 
+
 .card-title {
     text-align: center;
 }
 
-.services {
-    align-items: center;
+.card-deck {
+    grid-template-columns: repeat(auto-fit, min-max(250px, 1fr));
+    grid-gap: 5rem;
+    margin-right: -15px;
+    margin-left: -15px;
 }
+
+
+}
+.col {
+    width: 2000px;
+    justify-content: center;
+   grid-row: 5rem;
+}
+
 
 
 /*--------------------------------------------------Contact form*/
@@ -314,8 +326,8 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 100%;
 }
-
 }
+
 /*--------------------------------------------------Callout container*/
 
 .callout-container {

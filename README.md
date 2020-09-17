@@ -6,7 +6,7 @@
 Welcome to the BS Marine official website. 
 This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.
 
-<h2 align="center"><img src="https://techsini.com/multi-mockup/index.php"></h2>
+<h2 align="center"><img src="https://files.slack.com/files-pri/T0L30B202-F01B5M1HUBT/screenshot_2020-09-16_at_13.18.42.png"></h2>
 
 ## USER EXPERIENCE
 
