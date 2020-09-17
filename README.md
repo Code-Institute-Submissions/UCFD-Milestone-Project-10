@@ -6,7 +6,7 @@
 Welcome to the BS Marine official website. 
 This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.
 
-<h2 align="center"><img src="https://easycaptures.com/fs/uploaded/1461/0212304021.png"></h2>
+<h2 align="center"><img src="https://easycaptures.com/fs/uploaded/1461/2340309396.png"></h2>
 
 ## USER EXPERIENCE
 
@@ -33,7 +33,7 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
     -   #### IMAGERY
 
         -   The images placed in the website are sea images as for the main theme of the BS Marine activity develops in the maritime field. As  for 
-the shipping inspection company, the main interest is keeping international waters clean by verifying activities and crew on bord the ships.
+the ship inspections company, the main interest is keeping international waters clean by verifying activities and crew on bord the ships.
 
 -   ### WIREFRAME
 
