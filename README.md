@@ -17,7 +17,7 @@ This is the main marketing website for BS Marine. It is designed to be responsiv
     -   As a visitor I want to easily understand the main purpose of the site and learn more about the organization.
     -   As a visitor I want to be able to easily navigate throughout the site to find content.
     -   As a visitor I want to be able to find the best way to get in contact with the organization.
-    -   As a visitor I want to locate teh social links of the organization.
+    -   As a visitor I want to locate the social links of the organization.
 
 
 -   ### DESIGN
