@@ -94,7 +94,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         -   Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
         -   The main points are made immediately with the hero image.
 
--   2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+-   2. As a Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         -   The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the section they will end up at clearly.
         -   The user can also scroll to the bottom of the page on the site to locate social media links in the footer.

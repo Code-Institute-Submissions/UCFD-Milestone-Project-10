@@ -61,40 +61,18 @@ background-color: #2d5784;
 }
 
 /*-----------------------------------------------services*/
-.card-title {
-    text-align: center;
-}
 
-.card-text {
-    text-align: left;
+.card {
+    width: 18rem;
+    height:800px;
+    color: grey;
 }
 
 .card-body i {
-    text-align: center;
-}
-
-.card {
-    color: #6c7177;
-}
-.card-deck {
-    justify-content: center;
-    width: auto;
-}
-
-.card-body {
-    margin-top: 100px;
-    margin-bottom: 100px;
-   }
-
-.services {
-    margin-bottom: 40px;
-    margin-top: 50px;
-}
-
-.services i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+    text-align: center;
 }
 
 /*--------------------------------------------------Contact form*/
