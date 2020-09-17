@@ -74,9 +74,6 @@ background-color: #2d5784;
     text-align: center;
 }
 
-.card-body a {
-    
-}
 
 .card-title {
     text-align: center;
@@ -88,14 +85,6 @@ background-color: #2d5784;
     margin-right: -15px;
     margin-left: -15px;
 }
-
-
-
-.col {
-    width: 2000px;
-    justify-content: center;
-}
-
 
 
 /*---------------------------------Contact form-----------------*/
