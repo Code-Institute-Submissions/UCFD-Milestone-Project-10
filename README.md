@@ -109,7 +109,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### **Known bugs**
     -   When on mobile device, the navigation button doesn't automatically flip back but the user need to click on it in order to send the dropdown list back in the navbar.
     -   When on mobile device, the external links icons do not change color when hovered and after click they turn into the hover color and they remain that 
-    color until the user clicks on another space from the page.
+    acolor until the user clicks on another space from the page.
        
 ## **Deployment**
 
@@ -169,7 +169,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
     -   My Mentor **Medale Oluwafemi** for continuous helpful feedback.
 
-    -   Tutor support at Code Institute for their support. Special thanks to **Roman Grubic** and **Stephan** for helping me out from getting stuck.
+    -   Tutor support at Code Institute for their support. Special thanks to **Roman Grubic**, **Stephan** and **Cormac** for helping me out from getting stuck.
 
     -   Student Care
 

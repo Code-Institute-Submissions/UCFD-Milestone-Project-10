@@ -370,12 +370,12 @@ button[type="submit"] {
 .contact-container {
     background:
         url("../images/image4.jpg") no-repeat center center fixed; 
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -397,6 +397,7 @@ button[type="submit"] {
     justify-content: center;
     position: relative;
 }
+
 
 .quote-image-container {
     height: 300px;
