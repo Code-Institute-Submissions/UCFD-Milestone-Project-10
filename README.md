@@ -88,8 +88,8 @@ the ship inspections company, the main interest is keeping international waters 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) Results [here](https://validator.w3.org/nu/#textarea)
--   [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/) Results [here](https://jigsaw.w3.org/css-validator/validator)
+-   [W3C Markup Validator](https://validator.w3.org/) Results [here](https://easycaptures.com/fs/uploaded/1462/8356195871.png)
+-   [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/) Results [here](https://easycaptures.com/fs/uploaded/1462/4880277628.png)
 
 
 ### **Testing User Stories from User Experience (UX) Section**
@@ -106,10 +106,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         each link describes what the section they will end up at clearly.
         -   The user can also scroll to the bottom of the page on the site to locate social media links in the footer.
 
--   #### **Known bugs**
-    -   When on mobile device, the navigation button doesn't automatically flip back but the user need to click on it in order to send the dropdown list back in the navbar.
-    -   When on mobile device, the external links icons do not change color when hovered and after click they turn into the hover color and they remain that 
-    acolor until the user clicks on another space from the page.
+### **Further Testing**
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### **Known bugs**
+-   When on mobile device, the navigation button doesn't automatically flip back but the user need to click on it in order to send the dropdown list back in the navbar.
+-   When on mobile device, the external links icons do not change color when hovered and after click they turn into the hover color and they remain that 
+    color until the user clicks on another space from the page.
        
 ## **Deployment**
 
