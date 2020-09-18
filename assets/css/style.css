@@ -150,7 +150,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #28a745;
-    border: #28a745;
+    border: none;
 }
 
 
